@@ -7,9 +7,9 @@ function Header() {
   return (
     <div className="Header">
       <Row>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
+        <Col>Settings</Col>
+        <Col>Help</Col>
+        <Col>Fullscreen</Col>
       </Row>
     </div>
   );
