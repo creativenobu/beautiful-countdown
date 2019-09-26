@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/Header';
-import Countdown from './components/Countdown';
-import Footer from './components/Footer';
+import Header from './components/Header/index';
+import Countdown from './components/Countdown/index';
+import Footer from './components/Footer/index';
 
 function App() {
   return (
