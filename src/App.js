@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import Footer from './components/Footer';
 
-class App extends React.Component {
+class App extends Component {
   componentDidMount() {
     document.title = 'Beautiful Countdown';
   }
