@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './style.scss';
+
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import Footer from './components/Footer';
