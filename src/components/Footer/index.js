@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style.scss';
 
-function Footer() {
-  return (
-    <div className="Footer">
-      Footer component
-    </div>
-  );
+class Footer extends Component {
+  render() {
+    return (
+      <div className="Footer">
+        Footer component
+      </div>
+    );
+  }
 }
 
 export default Footer;

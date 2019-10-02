@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style.scss';
 
-function Countdown() {
-  return (
-    <div>Countdown component</div>
-  );
+class Countdown extends Component {
+  render() {
+    return (
+      <div className="Countdown">Countdown Component</div>
+    );
+  }
 }
 
 export default Countdown;
