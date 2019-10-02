@@ -1,5 +1,5 @@
 import React from 'react';
-import './Countdown.css';
+import './style.scss';
 
 function Countdown() {
   return (
