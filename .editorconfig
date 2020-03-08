@@ -1,8 +1,17 @@
 root = true
 
 [*]
+charset = utf-8
 indent_style = space
-
-[*.{js,css}]
 indent_size = 2
-max_line_length = 100
+end_of_line = crlf
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+[*.html]
+indent_style = space
+indent_size = 4
+
+[*.json]
+indent_style = space
+indent_size = 4

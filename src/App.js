@@ -1,25 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Header from './components/Header'
+import Countdown from './components/Countdown'
+import Footer from './components/Footer'
+import './style.scss'
 
-import './style.scss';
-
-import Header from './components/Header';
-import Countdown from './components/Countdown';
-import Footer from './components/Footer';
-
-class App extends Component {
-  componentDidMount() {
-    document.title = 'Beautiful Countdown';
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header/>
-        <Countdown/>
-        <Footer/>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <>
+      <Header/>
+      <Countdown/>
+      <Footer/>
+    </>
+  )
 }
 
-export default App;
+export default App
